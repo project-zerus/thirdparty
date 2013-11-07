@@ -17,6 +17,29 @@ cc_library(
         'libs/regex/src/w32_regex_traits.cpp',
         'libs/regex/src/wc_regex_traits.cpp',
         'libs/regex/src/wide_posix_api.cpp',
-        'libs/regex/src/winstances.cpp'
+        'libs/regex/src/winstances.cpp',
+    ],
+)
+
+cc_library(
+  name = 'system',
+  warning = 'no',
+  srcs = [
+    'libs/system/src/error_code.cpp',
+  ],
+)
+
+cc_library(
+    name = 'thread',
+    warning = 'no',
+    srcs = [
+        'libs/thread/src/future.cpp',
+        'libs/thread/src/tss_null.cpp',
+        'libs/thread/src/pthread/once_atomic.cpp',
+        'libs/thread/src/pthread/thread.cpp',
+    ],
+    deps = [
+        ':system',
+        '#pthread',
     ],
 )
