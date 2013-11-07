@@ -22,11 +22,14 @@ cc_library(
 )
 
 cc_library(
-  name = 'system',
-  warning = 'no',
-  srcs = [
-    'libs/system/src/error_code.cpp',
-  ],
+    name = 'system',
+    warning = 'no',
+    srcs = [
+        'libs/system/src/error_code.cpp',
+    ],
+    deps = [
+        '#rt',
+    ],
 )
 
 cc_library(

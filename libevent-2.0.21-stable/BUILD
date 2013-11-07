@@ -1,5 +1,14 @@
 cc_library(
-    name = "libevent",
+    name = 'libevent',
+    warning = 'no',
+    defs = [
+        'HAVE_CONFIG_H',
+    ],
+    incs = [
+        'include', 
+        'include/event2', 
+        'compat',
+    ],
     srcs = [
         'buffer.c',
         'bufferevent.c',
@@ -25,8 +34,8 @@ cc_library(
         'signal.c',
         'strlcpy.c',
     ],
-    incs = ['include', 'include/event2', 'compat'],
-    defs = ["HAVE_CONFIG_H"],
-    warning = "no",
-    deps = ["#pthread", "#rt"],
+    deps = [
+        '#pthread', 
+        '#rt',
+    ],
 )
