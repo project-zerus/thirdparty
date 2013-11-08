@@ -95,8 +95,8 @@ cc_library(
     ]
 )
 
-cc_binary(
-    name = "thriftc",
+cc_library(
+    name = "libthriftc",
     warning = 'no',
     incs = [
         'src/compiler/cpp',
@@ -134,5 +134,12 @@ cc_binary(
         'src/compiler/cpp/src/generate/t_rb_generator.cc',
         'src/compiler/cpp/src/generate/t_st_generator.cc',
         'src/compiler/cpp/src/generate/t_xsd_generator.cc'
+    ],
+)
+
+cc_binary(
+    name = 'thriftc',
+    deps = [
+        ':libthriftc'
     ],
 )

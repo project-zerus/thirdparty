@@ -18,3 +18,10 @@ cc_library(
         '//thirdparty/thrift-0.9.1:libthriftz'
     ]
 )
+
+cc_binary(
+    name = 'thriftc',
+    deps = [
+        '//thirdparty/thrift-0.9.1:libthriftc'
+    ]
+)
