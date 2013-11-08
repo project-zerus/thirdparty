@@ -1,11 +1,13 @@
+defs = [
+    'BOOST_ASIO_SEPARATE_COMPILATION',
+    'TORRENT_USE_OPENSSL',
+    'TORRENT_DISABLE_GEO_IP',
+]
+
 cc_library(
     name = 'libtorrent',
     warning = 'no',
-    defs = [
-        'BOOST_ASIO_SEPARATE_COMPILATION',
-        'TORRENT_USE_OPENSSL',
-        'TORRENT_DISABLE_GEO_IP',
-    ],
+    defs = defs,
     incs = [
         'include',
         'include/libtorrent',
@@ -107,4 +109,84 @@ cc_library(
         '//thirdparty/boost:system',
         '#pthread',
     ],
+)
+
+cc_binary(
+    name = 'connection_tester',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/connection_tester.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'simple_client',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/simple_client.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'dump_torrent',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/dump_torrent.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'enum_if',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/enum_if.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'make_torrent',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/make_torrent.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'parse_request_log',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/parse_request_log.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'rss_reader',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/rss_reader.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'client_test',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/client_test.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'fragmentation_test',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/fragmentation_test.cpp'],
+    deps = [':libtorrent']
+)
+
+cc_binary(
+    name = 'upnp_test',
+    warning = 'no',
+    defs = defs,
+    srcs = ['examples/upnp_test.cpp'],
+    deps = [':libtorrent']
 )
