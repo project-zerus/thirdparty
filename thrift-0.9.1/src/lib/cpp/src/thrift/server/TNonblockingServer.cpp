@@ -17,8 +17,10 @@
  * under the License.
  */
 
+#ifndef __STDC_FORMAT_MACROS
 #define __STDC_FORMAT_MACROS
-
+#endif
+ 
 #include <thrift/thrift-config.h>
 
 #include <thrift/server/TNonblockingServer.h>
