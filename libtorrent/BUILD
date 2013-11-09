@@ -4,4 +4,3 @@ cc_library(
         '//thirdparty/libtorrent-rasterbar-0.16.12:libtorrent',
     ],
 )
-
