@@ -2353,7 +2353,7 @@ yyreduce:
       (yyval.tconstv) = new t_const_value();
       (yyval.tconstv)->set_integer((yyvsp[(1) - (1)].iconst));
       if (!g_allow_64bit_consts && ((yyvsp[(1) - (1)].iconst) < INT32_MIN || (yyvsp[(1) - (1)].iconst) > INT32_MAX)) {
-        pwarning(1, "64-bit constant \"%"PRIi64"\" may not work in all languages.\n", (yyvsp[(1) - (1)].iconst));
+        pwarning(1, "64-bit constant \"%" PRIi64 "\" may not work in all languages.\n", (yyvsp[(1) - (1)].iconst));
       }
     }
     break;
@@ -2813,7 +2813,7 @@ yyreduce:
              * warn if the user-specified negative value isn't what
              * thrift would have auto-assigned.
              */
-            pwarning(1, "Nonpositive field key (%"PRIi64") differs from what would be "
+            pwarning(1, "Nonpositive field key (%" PRIi64 ") differs from what would be "
                      "auto-assigned by thrift (%d).\n", (yyvsp[(1) - (2)].iconst), y_field_val);
           }
           /*
@@ -2824,7 +2824,7 @@ yyreduce:
           (yyval.tfieldid).value = (yyvsp[(1) - (2)].iconst);
           (yyval.tfieldid).auto_assigned = false;
         } else {
-          pwarning(1, "Nonpositive value (%"PRIi64") not allowed as a field key.\n",
+          pwarning(1, "Nonpositive value (%" PRIi64 ") not allowed as a field key.\n",
                    (yyvsp[(1) - (2)].iconst));
           (yyval.tfieldid).value = y_field_val--;
           (yyval.tfieldid).auto_assigned = true;
