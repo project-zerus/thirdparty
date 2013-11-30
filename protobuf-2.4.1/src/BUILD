@@ -35,8 +35,8 @@ cc_library(
     ],
     deps = [
         '//thirdparty/glog:glog',
+        '//thirdparty/zlib:zlib',
         '#pthread',
-        '#z'
     ],
     incs = '..',
     warning = 'no'
