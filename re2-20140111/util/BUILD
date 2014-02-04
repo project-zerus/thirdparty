@@ -85,21 +85,12 @@ cc_library(
     warning = 'no'
 )
 
-cc_library(name = 'benchmark',
+cc_binary(name = 'benchmark',
            srcs = ['benchmark.cc',],
            deps = [
+            '//thirdparty/re2-20140111/re2:re2',
             '//thirdparty/gflags:gflags',
             '//thirdparty/glog:glog',
             '//thirdparty/perftools:tcmalloc_and_profiler',
-            ],
-           )
-
-cc_binary(name = 're2_benchmark',
-          srcs = ['re2_benchmark.cc',],
-          deps = [
-            ':benchmark',
-            '//thirdparty/re2-20130115/re2:re2',
-            '//thirdparty/gflags:gflags',
-            '//thirdparty/glog:glog',
             ],
            )

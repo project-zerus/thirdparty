@@ -29,8 +29,6 @@ void StartBenchmarkTiming();
 void BenchmarkMemoryUsage();
 void SetBenchmarkItemsProcessed(int);
 
-int NumCPUs();
-
 #define BENCHMARK(f) \
 	::testing::Benchmark* _benchmark_##f = (new ::testing::Benchmark(#f, f))
 

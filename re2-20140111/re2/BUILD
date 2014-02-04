@@ -20,7 +20,7 @@ cc_library(name = 're2',
         'unicode_casefold.cc',
         'unicode_groups.cc'
         ],
-    deps= ['//thirdparty/re2-20130115/util:util',
+    deps= ['//thirdparty/re2-20140111/util:util',
            ],
     warning = 'no'
     )
