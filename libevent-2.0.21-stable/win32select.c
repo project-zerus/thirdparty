@@ -37,14 +37,14 @@
 #include <string.h>
 #include <errno.h>
 
-#include "event2/util.h"
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/event-config.h"
 #include "util-internal.h"
 #include "log-internal.h"
-#include "event2/event.h"
+#include "thirdparty/libevent/event2/event.h"
 #include "event-internal.h"
 #include "evmap-internal.h"
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/thread.h"
 #include "evthread-internal.h"
 
 #define XFREE(ptr) do { if (ptr) mm_free(ptr); } while (0)

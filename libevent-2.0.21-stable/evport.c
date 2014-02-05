@@ -53,7 +53,7 @@
  * As in the select(2) implementation, signals are handled by evsignal.
  */
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/time.h>
 #include <sys/queue.h>
@@ -67,7 +67,7 @@
 #include <time.h>
 #include <unistd.h>
 
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/thread.h"
 
 #include "evthread-internal.h"
 #include "event-internal.h"

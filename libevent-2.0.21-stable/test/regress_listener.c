@@ -42,9 +42,9 @@
 
 #include <string.h>
 
-#include "event2/listener.h"
-#include "event2/event.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/listener.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/util.h"
 
 #include "regress.h"
 #include "tinytest.h"

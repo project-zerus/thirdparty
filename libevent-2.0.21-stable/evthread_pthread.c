@@ -23,14 +23,14 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 /* With glibc we need to define this to get PTHREAD_MUTEX_RECURSIVE. */
 #define _GNU_SOURCE
 #include <pthread.h>
 
 struct event_base;
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/thread.h"
 
 #include <stdlib.h>
 #include <string.h>

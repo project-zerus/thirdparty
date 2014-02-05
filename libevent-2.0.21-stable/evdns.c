@@ -49,7 +49,7 @@
  */
 
 #include <sys/types.h>
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifndef _FORTIFY_SOURCE
 #define _FORTIFY_SOURCE 3
@@ -82,16 +82,16 @@
 #include <shlobj.h>
 #endif
 
-#include "event2/dns.h"
-#include "event2/dns_struct.h"
-#include "event2/dns_compat.h"
-#include "event2/util.h"
-#include "event2/event.h"
-#include "event2/event_struct.h"
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/dns.h"
+#include "thirdparty/libevent/event2/dns_struct.h"
+#include "thirdparty/libevent/event2/dns_compat.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/event_struct.h"
+#include "thirdparty/libevent/event2/thread.h"
 
-#include "event2/bufferevent.h"
-#include "event2/bufferevent_struct.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/bufferevent_struct.h"
 #include "bufferevent-internal.h"
 
 #include "defer-internal.h"

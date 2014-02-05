@@ -6,10 +6,10 @@
 #include <stdlib.h>
 #include <string.h>
 #include <assert.h>
-#include <event2/event-config.h>
-#include <event2/event.h>
-#include <event2/buffer.h>
-#include <event2/tag.h>
+#include "thirdparty/libevent/event2/event-config.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/tag.h"
 
 #ifdef _EVENT___func__
 #define __func__ _EVENT___func__

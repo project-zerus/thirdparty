@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifdef WIN32
 #include <winsock2.h>
@@ -54,14 +54,14 @@
 #include <string.h>
 #include <time.h>
 
-#include "event2/event.h"
-#include "event2/event_struct.h"
-#include "event2/event_compat.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/event_struct.h"
+#include "thirdparty/libevent/event2/event_compat.h"
 #include "event-internal.h"
 #include "defer-internal.h"
 #include "evthread-internal.h"
-#include "event2/thread.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/thread.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "log-internal.h"
 #include "evmap-internal.h"
 #include "iocp-internal.h"

@@ -30,13 +30,13 @@
 #include <winsock2.h>
 #endif
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
-#include "event2/util.h"
-#include "event2/buffer.h"
-#include "event2/bufferevent.h"
-#include "event2/bufferevent_struct.h"
-#include "event2/event.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/bufferevent_struct.h"
+#include "thirdparty/libevent/event2/event.h"
 #include "defer-internal.h"
 #include "bufferevent-internal.h"
 #include "mm-internal.h"

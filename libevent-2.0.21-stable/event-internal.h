@@ -31,10 +31,10 @@
 extern "C" {
 #endif
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 #include <time.h>
 #include <sys/queue.h>
-#include "event2/event_struct.h"
+#include "thirdparty/libevent/event2/event_struct.h"
 #include "minheap-internal.h"
 #include "evsignal-internal.h"
 #include "mm-internal.h"

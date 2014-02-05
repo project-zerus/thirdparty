@@ -26,7 +26,7 @@
 
 #include <sys/types.h>
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifdef WIN32
 #ifndef _WIN32_WINNT
@@ -48,10 +48,10 @@
 #include <unistd.h>
 #endif
 
-#include "event2/listener.h"
-#include "event2/util.h"
-#include "event2/event.h"
-#include "event2/event_struct.h"
+#include "thirdparty/libevent/event2/listener.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/event_struct.h"
 #include "mm-internal.h"
 #include "util-internal.h"
 #include "log-internal.h"

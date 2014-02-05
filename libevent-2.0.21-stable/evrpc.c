@@ -24,7 +24,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifdef WIN32
 #define WIN32_LEAN_AND_MEAN
@@ -52,17 +52,17 @@
 
 #include <sys/queue.h>
 
-#include "event2/event.h"
-#include "event2/event_struct.h"
-#include "event2/rpc.h"
-#include "event2/rpc_struct.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/event_struct.h"
+#include "thirdparty/libevent/event2/rpc.h"
+#include "thirdparty/libevent/event2/rpc_struct.h"
 #include "evrpc-internal.h"
-#include "event2/http.h"
-#include "event2/buffer.h"
-#include "event2/tag.h"
-#include "event2/http_struct.h"
-#include "event2/http_compat.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/http.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/tag.h"
+#include "thirdparty/libevent/event2/http_struct.h"
+#include "thirdparty/libevent/event2/http_compat.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "util-internal.h"
 #include "log-internal.h"
 #include "mm-internal.h"

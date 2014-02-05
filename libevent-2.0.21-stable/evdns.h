@@ -38,8 +38,8 @@
  */
 
 #include <event.h>
-#include <event2/dns.h>
-#include <event2/dns_compat.h>
-#include <event2/dns_struct.h>
+#include "thirdparty/libevent/event2/dns.h"
+#include "thirdparty/libevent/event2/dns_compat.h"
+#include "thirdparty/libevent/event2/dns_struct.h"
 
 #endif /* _EVDNS_H_ */

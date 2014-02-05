@@ -4,15 +4,11 @@ cc_library(
     defs = [
         'HAVE_CONFIG_H',
     ],
-    incs = [
-        'include', 
-        'include/event2', 
-        'compat',
-    ],
     srcs = [
         'buffer.c',
         'bufferevent.c',
         'bufferevent_filter.c',
+        'bufferevent_openssl.c',
         'bufferevent_pair.c',
         'bufferevent_ratelim.c',
         'bufferevent_sock.c',
@@ -37,5 +33,6 @@ cc_library(
     deps = [
         '#pthread', 
         '#rt',
+        '//thirdparty/openssl:openssl',
     ],
 )

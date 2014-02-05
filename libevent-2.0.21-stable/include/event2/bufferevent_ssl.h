@@ -31,9 +31,9 @@
     OpenSSL support for bufferevents.
  */
 
-#include <event2/event-config.h>
-#include <event2/bufferevent.h>
-#include <event2/util.h>
+#include "thirdparty/libevent/event2/event-config.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/util.h"
 
 #ifdef __cplusplus
 extern "C" {

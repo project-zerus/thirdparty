@@ -33,7 +33,7 @@
 #include <windows.h>
 #endif
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -54,16 +54,16 @@
 #include <errno.h>
 #include <assert.h>
 
-#include "event2/buffer.h"
-#include "event2/event.h"
-#include "event2/event_compat.h"
-#include "event2/http.h"
-#include "event2/http_compat.h"
-#include "event2/http_struct.h"
-#include "event2/rpc.h"
-#include "event2/rpc.h"
-#include "event2/rpc_struct.h"
-#include "event2/tag.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/event_compat.h"
+#include "thirdparty/libevent/event2/http.h"
+#include "thirdparty/libevent/event2/http_compat.h"
+#include "thirdparty/libevent/event2/http_struct.h"
+#include "thirdparty/libevent/event2/rpc.h"
+#include "thirdparty/libevent/event2/rpc.h"
+#include "thirdparty/libevent/event2/rpc_struct.h"
+#include "thirdparty/libevent/event2/tag.h"
 #include "log-internal.h"
 
 #include "regress.gen.h"

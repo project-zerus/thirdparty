@@ -5,8 +5,8 @@
 #ifndef ___REGRESS_RPC_
 #define ___REGRESS_RPC_
 
-#include <event2/util.h> /* for ev_uint*_t */
-#include <event2/rpc.h>
+#include "thirdparty/libevent/event2/util.h" /* for ev_uint*_t */
+#include "thirdparty/libevent/event2/rpc.h"
 
 struct msg;
 struct kill;

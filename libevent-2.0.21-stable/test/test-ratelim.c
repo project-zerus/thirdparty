@@ -42,12 +42,12 @@
 #endif
 #include <signal.h>
 
-#include "event2/bufferevent.h"
-#include "event2/buffer.h"
-#include "event2/event.h"
-#include "event2/util.h"
-#include "event2/listener.h"
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/listener.h"
+#include "thirdparty/libevent/event2/thread.h"
 
 #include "../util-internal.h"
 

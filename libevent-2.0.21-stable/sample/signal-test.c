@@ -6,7 +6,7 @@
 
 #include <sys/types.h>
 
-#include <event2/event-config.h>
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/stat.h>
 #ifndef WIN32

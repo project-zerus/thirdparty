@@ -34,7 +34,7 @@
 #include <stdio.h>
 #include <mswsock.h>
 
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "util-internal.h"
 #include "iocp-internal.h"
 #include "log-internal.h"

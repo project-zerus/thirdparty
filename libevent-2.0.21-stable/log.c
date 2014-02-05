@@ -37,7 +37,7 @@
  * SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifdef WIN32
 #include <winsock2.h>
@@ -51,8 +51,8 @@
 #include <stdarg.h>
 #include <string.h>
 #include <errno.h>
-#include "event2/event.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/util.h"
 
 #include "log-internal.h"
 

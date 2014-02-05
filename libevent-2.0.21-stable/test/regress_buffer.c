@@ -30,7 +30,7 @@
 #include <windows.h>
 #endif
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -51,10 +51,10 @@
 #include <errno.h>
 #include <assert.h>
 
-#include "event2/event.h"
-#include "event2/buffer.h"
-#include "event2/buffer_compat.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/buffer_compat.h"
+#include "thirdparty/libevent/event2/util.h"
 
 #include "evbuffer-internal.h"
 #include "log-internal.h"

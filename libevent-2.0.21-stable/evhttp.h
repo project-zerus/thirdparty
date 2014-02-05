@@ -38,8 +38,8 @@
  */
 
 #include <event.h>
-#include <event2/http.h>
-#include <event2/http_struct.h>
-#include <event2/http_compat.h>
+#include "thirdparty/libevent/event2/http.h"
+#include "thirdparty/libevent/event2/http_struct.h"
+#include "thirdparty/libevent/event2/http_compat.h"
 
 #endif /* _EVHTTP_H_ */

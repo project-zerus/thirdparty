@@ -26,7 +26,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #define _GNU_SOURCE
 
@@ -60,7 +60,7 @@
 #include "event-internal.h"
 #include "log-internal.h"
 #include "evmap-internal.h"
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/thread.h"
 #include "evthread-internal.h"
 #include "changelist-internal.h"
 

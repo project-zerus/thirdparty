@@ -23,7 +23,7 @@
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifdef WIN32
 #ifndef _WIN32_WINNT
@@ -38,7 +38,7 @@
 #endif
 
 struct event_base;
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/thread.h"
 
 #include "mm-internal.h"
 #include "evthread-internal.h"

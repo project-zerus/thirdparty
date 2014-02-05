@@ -31,11 +31,11 @@
    objects on Windows.
 */
 
-#include "event2/buffer.h"
-#include "event2/buffer_compat.h"
-#include "event2/util.h"
-#include "event2/thread.h"
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/buffer_compat.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/thread.h"
+#include "thirdparty/libevent/event2/event-config.h"
 #include "util-internal.h"
 #include "evthread-internal.h"
 #include "evbuffer-internal.h"

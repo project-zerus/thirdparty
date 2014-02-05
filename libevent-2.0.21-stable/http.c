@@ -25,7 +25,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifdef _EVENT_HAVE_SYS_PARAM_H
 #include <sys/param.h>
@@ -87,15 +87,15 @@
 #undef timeout_initialized
 
 #include "strlcpy-internal.h"
-#include "event2/http.h"
-#include "event2/event.h"
-#include "event2/buffer.h"
-#include "event2/bufferevent.h"
-#include "event2/bufferevent_compat.h"
-#include "event2/http_struct.h"
-#include "event2/http_compat.h"
-#include "event2/util.h"
-#include "event2/listener.h"
+#include "thirdparty/libevent/event2/http.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/bufferevent_compat.h"
+#include "thirdparty/libevent/event2/http_struct.h"
+#include "thirdparty/libevent/event2/http_compat.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/listener.h"
 #include "log-internal.h"
 #include "util-internal.h"
 #include "http-internal.h"

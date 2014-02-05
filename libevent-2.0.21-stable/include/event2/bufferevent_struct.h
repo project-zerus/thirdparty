@@ -41,7 +41,7 @@
 extern "C" {
 #endif
 
-#include <event2/event-config.h>
+#include "thirdparty/libevent/event2/event-config.h"
 #ifdef _EVENT_HAVE_SYS_TYPES_H
 #include <sys/types.h>
 #endif
@@ -50,9 +50,9 @@ extern "C" {
 #endif
 
 /* For int types. */
-#include <event2/util.h>
+#include "thirdparty/libevent/event2/util.h"
 /* For struct event */
-#include <event2/event_struct.h>
+#include "thirdparty/libevent/event2/event_struct.h"
 
 struct event_watermark {
 	size_t low;

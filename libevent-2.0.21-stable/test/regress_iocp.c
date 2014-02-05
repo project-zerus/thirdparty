@@ -26,11 +26,11 @@
 
 #include <stdlib.h>
 #include <string.h>
-#include "event2/event.h"
-#include "event2/thread.h"
-#include "event2/buffer.h"
-#include "event2/buffer_compat.h"
-#include "event2/bufferevent.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/thread.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/buffer_compat.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
 
 #include <winsock2.h>
 #include <ws2tcpip.h>
@@ -50,7 +50,7 @@
 
 /* FIXME remove these ones */
 #include <sys/queue.h>
-#include "event2/event_struct.h"
+#include "thirdparty/libevent/event2/event_struct.h"
 #include "event-internal.h"
 
 #define MAX_CALLS 16

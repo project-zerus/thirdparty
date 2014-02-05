@@ -10,7 +10,7 @@
 #ifndef _HTTP_INTERNAL_H_
 #define _HTTP_INTERNAL_H_
 
-#include "event2/event_struct.h"
+#include "thirdparty/libevent/event2/event_struct.h"
 #include "util-internal.h"
 #include "defer-internal.h"
 

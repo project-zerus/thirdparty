@@ -24,7 +24,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #define _GNU_SOURCE
 
@@ -71,7 +71,7 @@
 #endif
 #include <sys/stat.h>
 
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "util-internal.h"
 #include "log-internal.h"
 #include "mm-internal.h"

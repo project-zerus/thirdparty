@@ -30,13 +30,13 @@
 extern "C" {
 #endif
 
-#include "event2/event-config.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/event-config.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "defer-internal.h"
 #include "evthread-internal.h"
-#include "event2/thread.h"
+#include "thirdparty/libevent/event2/thread.h"
 #include "ratelim-internal.h"
-#include "event2/bufferevent_struct.h"
+#include "thirdparty/libevent/event2/bufferevent_struct.h"
 
 /* These flags are reasons that we might be declining to actually enable
    reading or writing on a bufferevent.

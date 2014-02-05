@@ -26,7 +26,7 @@
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
  */
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #ifdef _EVENT_HAVE_SYS_TIME_H
 #include <sys/time.h>
@@ -50,12 +50,12 @@
 
 #include <sys/queue.h>
 
-#include "event2/util.h"
-#include "event2/bufferevent.h"
-#include "event2/buffer.h"
-#include "event2/bufferevent_struct.h"
-#include "event2/event.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/bufferevent_struct.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "event-internal.h"
 #include "log-internal.h"
 #include "mm-internal.h"

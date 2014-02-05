@@ -31,11 +31,11 @@
 #include <dirent.h>
 #endif
 
-#include <event2/event.h>
-#include <event2/http.h>
-#include <event2/buffer.h>
-#include <event2/util.h>
-#include <event2/keyvalq_struct.h>
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/http.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/keyvalq_struct.h"
 
 #ifdef _EVENT_HAVE_NETINET_IN_H
 #include <netinet/in.h>

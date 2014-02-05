@@ -32,7 +32,7 @@
 #include <windows.h>
 #endif
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/types.h>
 #ifndef WIN32
@@ -49,11 +49,11 @@
 #include <assert.h>
 #include <errno.h>
 
-#include "event2/util.h"
-#include "event2/event.h"
-#include "event2/event_compat.h"
-#include "event2/buffer.h"
-#include "event2/bufferevent.h"
+#include "thirdparty/libevent/event2/util.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/event_compat.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
 
 #include "regress.h"
 

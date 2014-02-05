@@ -31,7 +31,7 @@
 #include <windows.h>
 #endif
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/types.h>
 #include <sys/stat.h>
@@ -51,13 +51,13 @@
 #include <string.h>
 #include <errno.h>
 
-#include "event2/dns.h"
+#include "thirdparty/libevent/event2/dns.h"
 
-#include "event2/event.h"
-#include "event2/http.h"
-#include "event2/buffer.h"
-#include "event2/bufferevent.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/http.h"
+#include "thirdparty/libevent/event2/buffer.h"
+#include "thirdparty/libevent/event2/bufferevent.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "log-internal.h"
 #include "util-internal.h"
 #include "http-internal.h"

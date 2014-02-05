@@ -10,7 +10,7 @@
 
 #include <sys/types.h>
 
-#include <event2/event-config.h>
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/stat.h>
 #ifndef WIN32
@@ -27,9 +27,9 @@
 #include <string.h>
 #include <errno.h>
 
-#include <event2/event.h>
-#include <event2/event_struct.h>
-#include <event2/util.h>
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/event_struct.h"
+#include "thirdparty/libevent/event2/util.h"
 
 #ifdef WIN32
 #include <winsock2.h>

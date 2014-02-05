@@ -5,7 +5,7 @@
   XXX It's pretty ugly and should probably be cleaned up.
  */
 
-#include <event2/event-config.h>
+#include "thirdparty/libevent/event2/event-config.h"
 
 /* Compatibility for possible missing IPv6 declarations */
 #include "../ipv6-internal.h"
@@ -21,10 +21,10 @@
 #include <arpa/inet.h>
 #endif
 
-#include <event2/event.h>
-#include <event2/dns.h>
-#include <event2/dns_struct.h>
-#include <event2/util.h>
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/dns.h"
+#include "thirdparty/libevent/event2/dns_struct.h"
+#include "thirdparty/libevent/event2/util.h"
 
 #ifdef _EVENT_HAVE_NETINET_IN6_H
 #include <netinet/in6.h>

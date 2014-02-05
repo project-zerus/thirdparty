@@ -29,7 +29,7 @@
 #include <ws2tcpip.h>
 #endif
 
-#include "event2/event-config.h"
+#include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/types.h>
 
@@ -50,8 +50,8 @@
 #include <stdlib.h>
 #include <string.h>
 
-#include "event2/event.h"
-#include "event2/util.h"
+#include "thirdparty/libevent/event2/event.h"
+#include "thirdparty/libevent/event2/util.h"
 #include "../ipv6-internal.h"
 #include "../util-internal.h"
 #include "../log-internal.h"
