@@ -13,7 +13,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #ifndef WIN32
-#include <sys/queue.h>
+#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
 #include <unistd.h>
 #include <sys/time.h>
 #else

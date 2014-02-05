@@ -49,7 +49,7 @@
 #include "evthread-internal.h"
 
 /* FIXME remove these ones */
-#include <sys/queue.h>
+#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
 #include "thirdparty/libevent/event2/event_struct.h"
 #include "event-internal.h"
 

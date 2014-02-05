@@ -56,7 +56,7 @@
 #include "thirdparty/libevent/event2/event-config.h"
 
 #include <sys/time.h>
-#include <sys/queue.h>
+#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
 #include <errno.h>
 #include <poll.h>
 #include <port.h>

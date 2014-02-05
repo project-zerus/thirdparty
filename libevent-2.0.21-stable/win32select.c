@@ -29,7 +29,7 @@
 #include <winsock2.h>
 #include <windows.h>
 #include <sys/types.h>
-#include <sys/queue.h>
+#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
 #include <limits.h>
 #include <signal.h>
 #include <stdio.h>

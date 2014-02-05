@@ -35,7 +35,7 @@
 #ifdef _EVENT_HAVE_SYS_SELECT_H
 #include <sys/select.h>
 #endif
-#include <sys/queue.h>
+#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
 #include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>

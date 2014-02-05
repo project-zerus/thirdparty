@@ -38,7 +38,7 @@
 #ifdef _EVENT_HAVE_SYS_TIME_H
 #include <sys/time.h>
 #endif
-#include <sys/queue.h>
+#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
 #ifdef _EVENT_HAVE_SYS_SOCKET_H
 #include <sys/socket.h>
 #endif

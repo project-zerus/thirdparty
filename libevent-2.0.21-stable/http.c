@@ -51,7 +51,7 @@
 #include <ws2tcpip.h>
 #endif
 
-#include <sys/queue.h>
+#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
 
 #ifdef _EVENT_HAVE_NETINET_IN_H
 #include <netinet/in.h>
