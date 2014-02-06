@@ -44,7 +44,7 @@ extern "C" {
 #ifdef WIN32
 #include <winsock2.h>
 #endif
-#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
+#include "thirdparty/libevent/compat/sys/queue.h"
 
 /* Minimum allocation for a chain.  We define this so that we're burning no
  * more than 5% of each allocation on overhead.  It would be nice to lose even

@@ -33,7 +33,7 @@ extern "C" {
 
 #include "thirdparty/libevent/event2/event-config.h"
 #include <time.h>
-#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
+#include "thirdparty/libevent/compat/sys/queue.h"
 #include "thirdparty/libevent/event2/event_struct.h"
 #include "minheap-internal.h"
 #include "evsignal-internal.h"

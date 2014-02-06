@@ -51,7 +51,7 @@
 #endif
 #include <time.h>
 
-#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
+#include "thirdparty/libevent/compat/sys/queue.h"
 
 #include "thirdparty/libevent/event2/util.h"
 #include "thirdparty/libevent/event2/event.h"

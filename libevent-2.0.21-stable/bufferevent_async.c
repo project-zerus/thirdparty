@@ -48,7 +48,7 @@
 #include <ws2tcpip.h>
 #endif
 
-#include "thirdparty/libevent-2.0.21-stable/compat/sys/queue.h"
+#include "thirdparty/libevent/compat/sys/queue.h"
 
 #include "thirdparty/libevent/event2/util.h"
 #include "thirdparty/libevent/event2/bufferevent.h"
