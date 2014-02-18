@@ -43,7 +43,7 @@
 #endif
 #include <errno.h>
 
-#include <event.h>
+#include "thirdparty/libevent/event.h"
 
 int
 main(int argc, char **argv)

@@ -24,7 +24,7 @@
 #include <string.h>
 #include <errno.h>
 
-#include <event.h>
+#include "thirdparty/libevent/event.h"
 
 #ifdef _EVENT___func__
 #define __func__ _EVENT___func__

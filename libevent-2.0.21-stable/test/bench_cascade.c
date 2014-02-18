@@ -49,8 +49,8 @@
 #endif
 #include <errno.h>
 
-#include <event.h>
-#include <evutil.h>
+#include "thirdparty/libevent/event.h"
+#include "thirdparty/libevent/evutil.h"
 
 /*
  * This benchmark tests how quickly we can propagate a write down a chain

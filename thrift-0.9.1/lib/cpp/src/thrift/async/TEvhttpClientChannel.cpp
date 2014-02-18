@@ -18,7 +18,7 @@
  */
 
 #include <thrift/async/TEvhttpClientChannel.h>
-#include <evhttp.h>
+#include "thirdparty/libevent/evhttp.h"
 #include <thrift/transport/TBufferTransports.h>
 #include <thrift/protocol/TProtocolException.h>
 

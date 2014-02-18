@@ -54,7 +54,7 @@ extern "C" {
 #include <stdarg.h>
 
 /* For int types. */
-#include <evutil.h>
+#include "thirdparty/libevent/evutil.h"
 
 #ifdef WIN32
 #ifndef WIN32_LEAN_AND_MEAN

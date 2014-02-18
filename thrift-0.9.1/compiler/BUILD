@@ -1,0 +1,41 @@
+cc_library(
+    name = "thrift",
+    warning = 'no',
+    incs = [
+        'cpp',
+        'cpp/src',
+    ],
+    srcs = [
+        'cpp/src/md5.c',
+        'cpp/src/main.cc',
+
+        'cpp/src/parse/parse.cc',
+
+        'cpp/thriftl.cc',
+        'cpp/thrifty.cc',
+
+        'cpp/src/generate/t_as3_generator.cc',
+        'cpp/src/generate/t_c_glib_generator.cc',
+        'cpp/src/generate/t_cocoa_generator.cc',
+        'cpp/src/generate/t_cpp_generator.cc',
+        'cpp/src/generate/t_csharp_generator.cc',
+        'cpp/src/generate/t_delphi_generator.cc',
+        'cpp/src/generate/t_d_generator.cc',
+        'cpp/src/generate/t_erl_generator.cc',
+        'cpp/src/generate/t_generator.cc',
+        'cpp/src/generate/t_go_generator.cc',
+        'cpp/src/generate/t_gv_generator.cc',
+        'cpp/src/generate/t_hs_generator.cc',
+        'cpp/src/generate/t_html_generator.cc',
+        'cpp/src/generate/t_java_generator.cc',
+        'cpp/src/generate/t_javame_generator.cc',
+        'cpp/src/generate/t_js_generator.cc',
+        'cpp/src/generate/t_ocaml_generator.cc',
+        'cpp/src/generate/t_perl_generator.cc',
+        'cpp/src/generate/t_php_generator.cc',
+        'cpp/src/generate/t_py_generator.cc',
+        'cpp/src/generate/t_rb_generator.cc',
+        'cpp/src/generate/t_st_generator.cc',
+        'cpp/src/generate/t_xsd_generator.cc',
+    ],
+)

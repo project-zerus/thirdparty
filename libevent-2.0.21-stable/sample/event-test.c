@@ -26,7 +26,7 @@
 #include <string.h>
 #include <errno.h>
 
-#include <event.h>
+#include "thirdparty/libevent/event.h"
 
 static void
 fifo_read(evutil_socket_t fd, short event, void *arg)

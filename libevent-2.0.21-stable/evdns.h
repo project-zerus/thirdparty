@@ -37,7 +37,7 @@
   headers.
  */
 
-#include <event.h>
+#include "thirdparty/libevent/event.h"
 #include "thirdparty/libevent/event2/dns.h"
 #include "thirdparty/libevent/event2/dns_compat.h"
 #include "thirdparty/libevent/event2/dns_struct.h"

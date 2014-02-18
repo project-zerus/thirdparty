@@ -37,7 +37,7 @@
   headers.
  */
 
-#include <event.h>
+#include "thirdparty/libevent/event.h"
 #include "thirdparty/libevent/event2/http.h"
 #include "thirdparty/libevent/event2/http_struct.h"
 #include "thirdparty/libevent/event2/http_compat.h"

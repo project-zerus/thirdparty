@@ -37,7 +37,7 @@
   headers.
  */
 
-#include <event.h>
+#include "thirdparty/libevent/event.h"
 #include "thirdparty/libevent/event2/rpc.h"
 #include "thirdparty/libevent/event2/rpc_struct.h"
 #include "thirdparty/libevent/event2/rpc_compat.h"

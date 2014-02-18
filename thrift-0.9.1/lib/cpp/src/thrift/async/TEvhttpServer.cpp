@@ -20,7 +20,7 @@
 #include <thrift/async/TEvhttpServer.h>
 #include <thrift/async/TAsyncBufferProcessor.h>
 #include <thrift/transport/TBufferTransports.h>
-#include <evhttp.h>
+#include "thirdparty/libevent/evhttp.h"
 
 #include <iostream>
 

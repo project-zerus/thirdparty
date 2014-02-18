@@ -57,8 +57,8 @@
 #endif
 #include <errno.h>
 
-#include <event.h>
-#include <evutil.h>
+#include "thirdparty/libevent/event.h"
+#include "thirdparty/libevent/evutil.h"
 
 static int count, writes, fired;
 static evutil_socket_t *pipes;
