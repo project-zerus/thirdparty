@@ -1,4 +1,4 @@
-cc_library(
+cc_binary(
     name = "thrift",
     warning = 'no',
     incs = [
