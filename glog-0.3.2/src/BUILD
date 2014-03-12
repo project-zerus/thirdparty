@@ -11,7 +11,6 @@ cc_library(
         "utilities.cc",
         "vlog_is_on.cc",
     ],
-    incs = '.',
     deps = [
         '#pthread',
         '//thirdparty/gflags:gflags'
