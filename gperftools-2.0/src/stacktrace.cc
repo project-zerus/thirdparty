@@ -52,7 +52,7 @@
 // correctly when GetStackTrace() is called with max_depth == 0.
 // Some code may do that.
 
-#include <config.h>
+#include "config.h"
 #include <gperftools/stacktrace.h>
 #include "stacktrace_config.h"
 

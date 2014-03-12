@@ -36,7 +36,7 @@
 #ifndef TCMALLOC_SYSTEM_ALLOC_H_
 #define TCMALLOC_SYSTEM_ALLOC_H_
 
-#include <config.h>
+#include "config.h"
 #include <stddef.h>                     // for size_t
 
 class SysAllocator;

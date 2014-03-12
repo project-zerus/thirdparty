@@ -35,7 +35,7 @@
 #ifndef TCMALLOC_INTERNAL_LOGGING_H_
 #define TCMALLOC_INTERNAL_LOGGING_H_
 
-#include <config.h>
+#include "config.h"
 #include <stddef.h>                     // for size_t
 #if defined HAVE_STDINT_H
 #include <stdint.h>

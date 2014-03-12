@@ -71,7 +71,7 @@
 #ifndef TCMALLOC_LIBC_OVERRIDE_OSX_INL_H_
 #define TCMALLOC_LIBC_OVERRIDE_OSX_INL_H_
 
-#include <config.h>
+#include "config.h"
 #ifdef HAVE_FEATURES_H
 #include <features.h>
 #endif

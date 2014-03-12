@@ -31,7 +31,7 @@
  * Author: Sanjay Ghemawat
  */
 
-#include <config.h>
+#include "config.h"
 #include "base/spinlock.h"
 #include "base/synchronization_profiling.h"
 #include "base/spinlock_internal.h"

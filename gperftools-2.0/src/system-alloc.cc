@@ -30,7 +30,7 @@
 // ---
 // Author: Sanjay Ghemawat
 
-#include <config.h>
+#include "config.h"
 #include <errno.h>                      // for EAGAIN, errno
 #include <fcntl.h>                      // for open, O_RDWR
 #include <stddef.h>                     // for size_t, NULL, ptrdiff_t

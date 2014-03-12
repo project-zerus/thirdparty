@@ -55,7 +55,7 @@
 #ifndef BASE_VDSO_SUPPORT_H_
 #define BASE_VDSO_SUPPORT_H_
 
-#include <config.h>
+#include "config.h"
 #include "base/basictypes.h"
 #include "base/elf_mem_image.h"
 

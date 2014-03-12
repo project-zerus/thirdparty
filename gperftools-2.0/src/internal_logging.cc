@@ -30,7 +30,7 @@
 // ---
 // Sanjay Ghemawat <opensource@google.com>
 
-#include <config.h>
+#include "config.h"
 #include "internal_logging.h"
 #include <stdarg.h>                     // for va_end, va_start
 #include <stdio.h>                      // for vsnprintf, va_list, etc

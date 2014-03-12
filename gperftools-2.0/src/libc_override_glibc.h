@@ -35,7 +35,7 @@
 #ifndef TCMALLOC_LIBC_OVERRIDE_GLIBC_INL_H_
 #define TCMALLOC_LIBC_OVERRIDE_GLIBC_INL_H_
 
-#include <config.h>
+#include "config.h"
 #include <features.h>     // for __GLIBC__
 #ifdef HAVE_SYS_CDEFS_H
 #include <sys/cdefs.h>    // for __THROW

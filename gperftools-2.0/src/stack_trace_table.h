@@ -35,7 +35,7 @@
 #ifndef TCMALLOC_STACK_TRACE_TABLE_H_
 #define TCMALLOC_STACK_TRACE_TABLE_H_
 
-#include <config.h>
+#include "config.h"
 #ifdef HAVE_STDINT_H
 #include <stdint.h>                     // for uintptr_t
 #endif

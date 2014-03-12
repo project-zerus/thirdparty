@@ -37,7 +37,7 @@
 
 #ifdef __linux
 
-#include <config.h>
+#include "config.h"
 #include <errno.h>                      // for errno, EINVAL
 #include <inttypes.h>                   // for PRId64
 #include <limits.h>                     // for PATH_MAX

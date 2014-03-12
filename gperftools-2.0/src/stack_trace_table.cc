@@ -30,7 +30,7 @@
 // ---
 // Author: Andrew Fikes
 
-#include <config.h>
+#include "config.h"
 #include "stack_trace_table.h"
 #include <string.h>                     // for NULL, memset
 #include "base/spinlock.h"              // for SpinLockHolder

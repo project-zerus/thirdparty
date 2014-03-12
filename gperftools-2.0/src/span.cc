@@ -30,7 +30,7 @@
 // ---
 // Author: Sanjay Ghemawat <opensource@google.com>
 
-#include <config.h>
+#include "config.h"
 #include "span.h"
 
 #include <string.h>                     // for NULL, memset
