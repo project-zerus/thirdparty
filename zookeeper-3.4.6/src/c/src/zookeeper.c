@@ -24,11 +24,11 @@
 #define USE_IPV6
 #endif
 
-#include <zookeeper.h>
-#include <zookeeper.jute.h>
-#include <proto.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/generated/zookeeper.jute.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/proto.h"
 #include "zk_adaptor.h"
-#include "zookeeper_log.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper_log.h"
 #include "zk_hashtable.h"
 
 #include <stdlib.h>
@@ -50,7 +50,7 @@
 #include <arpa/inet.h>
 #include <netdb.h>
 #include <unistd.h>
-#include "config.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/config.h"
 #endif
 
 #ifdef HAVE_SYS_UTSNAME_H

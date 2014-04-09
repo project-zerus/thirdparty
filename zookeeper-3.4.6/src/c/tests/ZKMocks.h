@@ -19,7 +19,7 @@
 #ifndef ZKMOCKS_H_
 #define ZKMOCKS_H_
 
-#include <zookeeper.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
 #include "src/zk_adaptor.h"
 
 #include "Util.h"

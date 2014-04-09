@@ -16,8 +16,8 @@
  * limitations under the License.
  */
 
-#include <zookeeper.h>
-#include "zookeeper_log.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper_log.h"
 #include <errno.h>
 #ifndef WIN32
 #ifdef THREADED 

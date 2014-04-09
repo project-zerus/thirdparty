@@ -35,7 +35,7 @@ using namespace std;
 #include <cstring>
 #include <list>
 
-#include <zookeeper.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
 
 #include "Util.h"
 

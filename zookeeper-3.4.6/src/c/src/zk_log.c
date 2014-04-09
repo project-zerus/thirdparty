@@ -20,7 +20,7 @@
 #  define USE_STATIC_LIB
 #endif
 
-#include "zookeeper_log.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper_log.h"
 #ifndef WIN32
 #include <unistd.h>
 #endif

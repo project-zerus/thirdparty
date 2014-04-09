@@ -20,7 +20,7 @@
 #include "CppAssertHelper.h"
 
 #include "ZKMocks.h"
-#include <proto.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/proto.h"
 
 using namespace std;
 

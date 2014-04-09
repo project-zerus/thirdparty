@@ -29,10 +29,10 @@
 #include <stdio.h>
 #include <ctype.h>
 
-#include "proto.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/proto.h"
 #include "zookeeper_version.h"
-#include "recordio.h"
-#include "zookeeper.jute.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/recordio.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/generated/zookeeper.jute.h"
 
 /**
  * \file zookeeper.h 

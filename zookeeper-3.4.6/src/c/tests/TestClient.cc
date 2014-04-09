@@ -35,9 +35,9 @@ using namespace std;
 #include <cstring>
 #include <list>
 
-#include <zookeeper.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
 #include <errno.h>
-#include <recordio.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/recordio.h"
 #include "Util.h"
 
 struct buff_struct_2 {

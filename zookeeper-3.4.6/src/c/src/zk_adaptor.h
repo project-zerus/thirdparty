@@ -18,7 +18,7 @@
 
 #ifndef ZK_ADAPTOR_H_
 #define ZK_ADAPTOR_H_
-#include <zookeeper.jute.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/generated/zookeeper.jute.h"
 #ifdef THREADED
 #ifndef WIN32
 #include <pthread.h>
@@ -26,7 +26,7 @@
 #include "winport.h"
 #endif
 #endif
-#include "zookeeper.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
 #include "zk_hashtable.h"
 
 /* predefined xid's values recognized as special by the server */

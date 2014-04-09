@@ -19,7 +19,7 @@
 #ifndef ZK_LOG_H_
 #define ZK_LOG_H_
 
-#include <zookeeper.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
 
 #ifdef __cplusplus
 extern "C" {

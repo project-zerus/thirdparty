@@ -18,7 +18,7 @@
 
 #ifndef __ZOOKEEPER_JUTE__
 #define __ZOOKEEPER_JUTE__
-#include "recordio.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/recordio.h"
 
 #ifdef __cplusplus
 extern "C" {

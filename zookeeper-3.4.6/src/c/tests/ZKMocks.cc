@@ -19,8 +19,8 @@
 #include <arpa/inet.h>  // for htonl
 #include <memory>
 
-#include <zookeeper.h>
-#include <proto.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/zookeeper.h"
+#include "thirdparty/zookeeper-3.4.6/src/c/include/proto.h"
 
 #ifdef THREADED
 #include "PthreadMocks.h"

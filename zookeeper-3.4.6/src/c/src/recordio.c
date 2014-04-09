@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 
-#include <recordio.h>
+#include "thirdparty/zookeeper-3.4.6/src/c/include/recordio.h"
 #include <string.h>
 #include <stdio.h>
 #include <errno.h>
