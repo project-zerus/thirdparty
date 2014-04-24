@@ -38,7 +38,7 @@
 // Reads data on standard input and writes compressed gzip stream to standard
 // output.
 
-#include "config.h"
+#include "thirdparty/protobuf-2.4.1/config.h"
 
 #include <stdio.h>
 #include <stdlib.h>
