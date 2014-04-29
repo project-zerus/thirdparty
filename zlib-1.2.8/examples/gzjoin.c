@@ -57,7 +57,7 @@
 #include <stdlib.h>     /* exit(), malloc(), free() */
 #include <fcntl.h>      /* open() */
 #include <unistd.h>     /* close(), read(), lseek() */
-#include "zlib.h"
+#include "thirdparty/zlib-1.2.8/zlib.h"
     /* crc32(), crc32_combine(), inflateInit2(), inflate(), inflateEnd() */
 
 #define local static

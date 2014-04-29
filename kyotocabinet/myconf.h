@@ -1,1 +1,1 @@
-#include "thirdparty/kyotocabinet-1.2.76/src/myconf.h"
+#include "thirdparty/kyotocabinet-1.2.76/myconf.h"

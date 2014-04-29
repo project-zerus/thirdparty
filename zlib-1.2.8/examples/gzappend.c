@@ -82,7 +82,7 @@
 #include <string.h>
 #include <fcntl.h>
 #include <unistd.h>
-#include "zlib.h"
+#include "thirdparty/zlib-1.2.8/zlib.h"
 
 #define local static
 #define LGCHUNK 14

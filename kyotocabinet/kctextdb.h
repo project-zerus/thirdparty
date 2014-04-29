@@ -1,1 +1,1 @@
-#include "thirdparty/kyotocabinet-1.2.76/src/kctextdb.h"
+#include "thirdparty/kyotocabinet-1.2.76/kctextdb.h"

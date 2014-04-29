@@ -234,7 +234,7 @@
 #include <time.h>       /* time, ctime */
 #include <sys/stat.h>   /* stat */
 #include <sys/time.h>   /* utimes */
-#include "zlib.h"       /* crc32 */
+#include "thirdparty/zlib-1.2.8/zlib.h"       /* crc32 */
 
 #include "gzlog.h"      /* header for external access */
 

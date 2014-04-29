@@ -3903,7 +3903,7 @@ void hugehelp(void)
  */
 #ifdef USE_MANUAL
 #include "hugehelp.h"
-#include <zlib.h>
+#include "thirdparty/zlib/zlib.h"
 #include "memdebug.h" /* keep this as LAST include */
 static const unsigned char hugehelpgz[] = {
   /* This mumbo-jumbo is the huge help text compressed with gzip.

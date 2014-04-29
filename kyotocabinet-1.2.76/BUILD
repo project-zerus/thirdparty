@@ -1,34 +1,25 @@
 cc_library(
     name = 'kyotocabinet',
     warning = 'no',
-    defs = [
-        '_MYGCCATOMIC',
-        '_MYZLIB',
-        '_MYLZO',
-    ],
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kccachedb.cc',
-        'src/kccompare.cc',
-        'src/kccompress.cc',
-        'src/kcdb.cc',
-        'src/kcdbext.cc',
-        'src/kcdirdb.cc',
-        'src/kcfile.cc',
-        'src/kchashdb.cc',
-        'src/kclangc.cc',
-        'src/kcmap.cc',
-        'src/kcplantdb.cc',
-        'src/kcpolydb.cc',
-        'src/kcprotodb.cc',
-        'src/kcregex.cc',
-        'src/kcstashdb.cc',
-        'src/kctextdb.cc',
-        'src/kcthread.cc',
-        'src/kcutil.cc',
+        'kccachedb.cc',
+        'kccompare.cc',
+        'kccompress.cc',
+        'kcdb.cc',
+        'kcdbext.cc',
+        'kcdirdb.cc',
+        'kcfile.cc',
+        'kchashdb.cc',
+        'kclangc.cc',
+        'kcmap.cc',
+        'kcplantdb.cc',
+        'kcpolydb.cc',
+        'kcprotodb.cc',
+        'kcregex.cc',
+        'kcstashdb.cc',
+        'kctextdb.cc',
+        'kcthread.cc',
+        'kcutil.cc',
     ],
     deps = [
         '#pthread',
@@ -40,12 +31,8 @@ cc_library(
 cc_binary(
     name = 'kcutiltest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcutiltest.cc',
+        'kcutiltest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -55,12 +42,8 @@ cc_binary(
 cc_binary(
     name = 'kcprototest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcprototest.cc',
+        'kcprototest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -70,12 +53,8 @@ cc_binary(
 cc_binary(
     name = 'kcstashtest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcstashtest.cc',
+        'kcstashtest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -85,12 +64,8 @@ cc_binary(
 cc_binary(
     name = 'kccachetest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kccachetest.cc',
+        'kccachetest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -100,12 +75,8 @@ cc_binary(
 cc_binary(
     name = 'kcgrasstest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcgrasstest.cc',
+        'kcgrasstest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -115,12 +86,8 @@ cc_binary(
 cc_binary(
     name = 'kchashtest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kchashtest.cc',
+        'kchashtest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -130,12 +97,8 @@ cc_binary(
 cc_binary(
     name = 'kctreetest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kctreetest.cc',
+        'kctreetest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -145,12 +108,8 @@ cc_binary(
 cc_binary(
     name = 'kcdirtest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcdirtest.cc',
+        'kcdirtest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -160,12 +119,8 @@ cc_binary(
 cc_binary(
     name = 'kcforesttest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcforesttest.cc',
+        'kcforesttest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -175,12 +130,8 @@ cc_binary(
 cc_binary(
     name = 'kcpolytest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcpolytest.cc',
+        'kcpolytest.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -190,12 +141,8 @@ cc_binary(
 cc_binary(
     name = 'kclangctest',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kclangctest.c',
+        'kclangctest.c',
     ],
     deps = [
         ':kyotocabinet',
@@ -205,12 +152,8 @@ cc_binary(
 cc_binary(
     name = 'kcutilmgr',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcutilmgr.cc',
+        'kcutilmgr.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -220,12 +163,8 @@ cc_binary(
 cc_binary(
     name = 'kchashmgr',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kchashmgr.cc',
+        'kchashmgr.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -235,12 +174,8 @@ cc_binary(
 cc_binary(
     name = 'kctreemgr',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kctreemgr.cc',
+        'kctreemgr.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -250,12 +185,8 @@ cc_binary(
 cc_binary(
     name = 'kcdirmgr',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcdirmgr.cc',
+        'kcdirmgr.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -265,12 +196,8 @@ cc_binary(
 cc_binary(
     name = 'kcforestmgr',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcforestmgr.cc',
+        'kcforestmgr.cc',
     ],
     deps = [
         ':kyotocabinet',
@@ -280,12 +207,8 @@ cc_binary(
 cc_binary(
     name = 'kcpolymgr',
     warning = 'no',
-    incs = [
-        'src',
-        'thirdparty/zlib',
-    ],
     srcs = [
-        'src/kcpolymgr.cc',
+        'kcpolymgr.cc',
     ],
     deps = [
         ':kyotocabinet',

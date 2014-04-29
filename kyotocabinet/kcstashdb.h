@@ -1,1 +1,1 @@
-#include "thirdparty/kyotocabinet-1.2.76/src/kcstashdb.h"
+#include "thirdparty/kyotocabinet-1.2.76/kcstashdb.h"

@@ -1,1 +1,1 @@
-#include "thirdparty/kyotocabinet-1.2.76/src/kccompare.h"
+#include "thirdparty/kyotocabinet-1.2.76/kccompare.h"

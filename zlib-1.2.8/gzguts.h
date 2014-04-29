@@ -19,7 +19,7 @@
 #endif
 
 #include <stdio.h>
-#include "zlib.h"
+#include "thirdparty/zlib-1.2.8/zlib.h"
 #ifdef STDC
 #  include <string.h>
 #  include <stdlib.h>

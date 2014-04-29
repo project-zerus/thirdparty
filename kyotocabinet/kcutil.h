@@ -1,1 +1,1 @@
-#include "thirdparty/kyotocabinet-1.2.76/src/kcutil.h"
+#include "thirdparty/kyotocabinet-1.2.76/kcutil.h"

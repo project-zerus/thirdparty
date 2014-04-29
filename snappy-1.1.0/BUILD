@@ -13,7 +13,9 @@ cc_binary(name = 'snappy_unittest',
         'snappy_unittest.cc',
         'snappy-test.cc',
     ],
-    #FIXME(yeshunping) : Is it a good idea to treat libz as system library ?
-    deps = [':snappy', '#z'],
+    deps = [
+        ':snappy',
+        '//thirdparty/zlib:zlib',
+    ],
     warning = 'no',
 )
