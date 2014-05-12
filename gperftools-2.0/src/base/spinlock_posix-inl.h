@@ -31,7 +31,7 @@
  * This file is a Posix-specific part of spinlock_internal.cc
  */
 
-#include "config.h"
+#include "../config.h"
 #include <errno.h>
 #ifdef HAVE_SCHED_H
 #include <sched.h>      /* For sched_yield() */

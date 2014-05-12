@@ -35,7 +35,7 @@
 # error "This file should be built as pure C to avoid name mangling"
 #endif
 
-#include "config.h"
+#include "../config.h"
 #include <stdlib.h>
 #include <string.h>
 

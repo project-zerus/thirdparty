@@ -35,7 +35,7 @@
 #ifndef BASE_SPINLOCK_INTERNAL_H_
 #define BASE_SPINLOCK_INTERNAL_H_
 
-#include "config.h"
+#include "../config.h"
 #include "base/basictypes.h"
 #include "base/atomicops.h"
 

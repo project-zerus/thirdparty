@@ -31,7 +31,7 @@
  * Author: Markus Gutschke
  */
 
-#include "config.h"
+#include "../config.h"
 #include <stdio.h>         /* needed for NULL on some powerpc platforms (?!) */
 #ifdef HAVE_SYS_PRCTL
 # include <sys/prctl.h>
