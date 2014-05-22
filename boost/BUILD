@@ -1,4 +1,14 @@
 cc_library(
+    name = 'boost',
+    deps = [
+        ':regex',
+        ':system',
+        ':thread',
+        ':filesystem',
+    ]
+)
+
+cc_library(
     name = 'regex',
     deps = [
         '//thirdparty/boost_1_55_0:regex'
