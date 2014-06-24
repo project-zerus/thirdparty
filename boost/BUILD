@@ -2,6 +2,7 @@ cc_library(
     name = 'boost',
     deps = [
         ':chrono',
+        ':cpp-netlib',
         ':filesystem',
         ':regex',
         ':system',
@@ -41,5 +42,12 @@ cc_library(
     name = 'chrono',
     deps = [
         '//thirdparty/boost_1_55_0:chrono'
+    ]
+)
+
+cc_library(
+    name = 'cpp-netlib',
+    deps = [
+        '//thirdparty/cpp-netlib-0.11.0-final:cpp-netlib'
     ]
 )
