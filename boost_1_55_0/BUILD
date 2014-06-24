@@ -68,3 +68,17 @@ cc_library(
     ':system',
   ],
 )
+
+cc_library(
+  name = 'chrono',
+  extra_cppflags = '-std=c++0x',
+  warning = 'no',
+  srcs = [
+    'libs/chrono/src/chrono.cpp',
+    'libs/chrono/src/process_cpu_clocks.cpp',
+    'libs/chrono/src/thread_clock.cpp'
+  ],
+  deps = [
+    ':system',
+  ],
+)

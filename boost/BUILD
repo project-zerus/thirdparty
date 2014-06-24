@@ -1,10 +1,11 @@
 cc_library(
     name = 'boost',
     deps = [
+        ':chrono',
+        ':filesystem',
         ':regex',
         ':system',
         ':thread',
-        ':filesystem',
     ]
 )
 
@@ -33,5 +34,12 @@ cc_library(
     name = 'filesystem',
     deps = [
         '//thirdparty/boost_1_55_0:filesystem'
+    ]
+)
+
+cc_library(
+    name = 'chrono',
+    deps = [
+        '//thirdparty/boost_1_55_0:chrono'
     ]
 )
