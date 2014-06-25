@@ -1,6 +1,5 @@
 cc_library(
   name = 'regex',
-  extra_cppflags = '-std=c++0x',
   srcs = [
     'libs/regex/src/cpp_regex_traits.cpp',
     'libs/regex/src/cregex.cpp',
@@ -24,7 +23,6 @@ cc_library(
 
 cc_library(
   name = 'system',
-  extra_cppflags = '-std=c++0x',
   warning = 'no',
   srcs = [
     'libs/system/src/error_code.cpp',
@@ -36,7 +34,6 @@ cc_library(
 
 cc_library(
   name = 'thread',
-  extra_cppflags = '-std=c++0x',
   warning = 'no',
   srcs = [
     'libs/thread/src/future.cpp',
@@ -52,7 +49,6 @@ cc_library(
 
 cc_library(
   name = 'filesystem',
-  extra_cppflags = '-std=c++0x',
   warning = 'no',
   srcs = [
     'libs/filesystem/src/codecvt_error_category.cpp',
@@ -71,7 +67,6 @@ cc_library(
 
 cc_library(
   name = 'chrono',
-  extra_cppflags = '-std=c++0x',
   warning = 'no',
   srcs = [
     'libs/chrono/src/chrono.cpp',
