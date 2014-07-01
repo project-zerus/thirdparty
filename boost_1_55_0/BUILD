@@ -30,6 +30,21 @@ cc_library(
 )
 
 cc_library(
+  name = 'iostreams',
+  srcs = [
+    'libs/iostreams/src/bzip2.cpp',
+    'libs/iostreams/src/file_descriptor.cpp',
+    'libs/iostreams/src/gzip.cpp',
+    'libs/iostreams/src/mapped_file.cpp',
+    'libs/iostreams/src/zlib.cpp'
+  ],
+  deps = [
+    '//thirdparty/bzip2:bz2',
+    '//thirdparty/zlib:zlib',
+  ]
+)
+
+cc_library(
   name = 'python',
   srcs = [
     'libs/python/src/converter/arg_to_python_base.cpp',

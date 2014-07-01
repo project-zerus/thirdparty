@@ -55,7 +55,7 @@ extern "C" {
 #endif
 
 #ifdef HAVE_BZIP2
-#include "bzlib.h"
+#include "bzip2/bzlib.h"
 #endif
 
 #define Z_BZIP2ED 12

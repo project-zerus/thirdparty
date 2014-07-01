@@ -4,6 +4,7 @@ cc_library(
         ':chrono',
         ':cpp-netlib',
         ':filesystem',
+        ':iostreams',
         ':regex',
         ':system',
         ':thread',
@@ -28,6 +29,13 @@ cc_library(
     name = 'filesystem',
     deps = [
         '//thirdparty/boost_1_55_0:filesystem'
+    ]
+)
+
+cc_library(
+    name = 'iostreams',
+    deps = [
+        '//thirdparty/boost_1_55_0:iostreams'
     ]
 )
 
