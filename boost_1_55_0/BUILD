@@ -1,3 +1,5 @@
+import sys
+
 cc_library(
   name = 'chrono',
   warning = 'no',
@@ -44,6 +46,8 @@ cc_library(
   ]
 )
 
+python_version = str(sys.version_info[0]) + "." + str(sys.version_info[1])
+
 cc_library(
   name = 'python',
   srcs = [
@@ -77,7 +81,7 @@ cc_library(
     'libs/python/src/wrapper.cpp'
   ],
   deps = [
-    '#python2.7'
+    '#python' + python_version
   ]
 )
 
