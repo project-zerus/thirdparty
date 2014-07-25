@@ -7,5 +7,8 @@ cc_library(
     "libs/network/src/uri/schemes.cpp",
     "libs/network/src/uri/uri.cpp",
   ],
-  deps = "//thirdparty/boost:thread"
+  export_incs = [
+    '.',
+  ],
+  deps = "//boost:thread"
 )
