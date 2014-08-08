@@ -18,7 +18,7 @@
 
 #if _KC_ZLIB
 extern "C" {
-#include "thirdparty/zlib/zlib.h"
+#include "zlib.h"
 }
 #endif
 

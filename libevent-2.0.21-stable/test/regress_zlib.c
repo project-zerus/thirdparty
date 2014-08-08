@@ -77,7 +77,7 @@
 #define off64_t ev_int64_t
 #endif
 
-#include "thirdparty/zlib/zlib.h"
+#include "zlib.h"
 
 static int infilter_calls;
 static int outfilter_calls;

@@ -104,7 +104,7 @@
 #endif
 
 #ifdef HAVE_LIBZ
-#include "thirdparty/zlib/zlib.h"
+#include "zlib.h"
 #endif
 
 #ifdef HAVE_LIBLZO2
