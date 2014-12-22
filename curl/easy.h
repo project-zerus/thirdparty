@@ -1,1 +1,1 @@
-#include "thirdparty/curl-7.28.1/include/curl/easy.h"
+#include "thirdparty/curl-7.34.0/include/curl/easy.h"

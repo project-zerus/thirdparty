@@ -2,5 +2,5 @@
 # Author liuli
 cc_library(
   name = 'libcurl',
-  deps = [ '//thirdparty/curl-7.28.1:libcurl', ],
+  deps = [ '//thirdparty/curl-7.34.0:libcurl', ],
 )
