@@ -54,10 +54,10 @@ cc_library(
         'lib/cpp/src/thrift/concurrency/Util.cpp',
     ],
     deps = [
-        '//thirdparty/boost:boost',
-        '//thirdparty/snappy:snappy',
-        '//thirdparty/openssl:openssl',
-        '//thirdparty/libevent:libevent',
-        '//thirdparty/zlib:zlib',
+        '//boost:boost',
+        '//snappy:snappy',
+        '//openssl:openssl',
+        '//libevent:libevent',
+        '//zlib:zlib',
     ],
 )

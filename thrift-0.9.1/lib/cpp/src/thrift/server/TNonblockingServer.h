@@ -37,7 +37,7 @@
 #ifdef HAVE_UNISTD_H
 #include <unistd.h>
 #endif
-#include "thirdparty/libevent/event.h"
+#include "libevent/event.h"
 
 
 
