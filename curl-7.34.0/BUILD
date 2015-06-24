@@ -118,7 +118,7 @@ cc_library(
   ],
   defs = ['HAVE_CONFIG_H'],
   deps = [
-    '//thirdparty/openssl:openssl',
+    '//openssl:openssl',
     '#rt',
   ],
   warning = 'no',
